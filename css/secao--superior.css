@@ -1,0 +1,13 @@
+.superior__secao__container{
+    display: flex;
+    align-items: center;
+    gap: .625rem;
+    white-space: nowrap;
+    overflow: scroll;
+}
+
+@media screen and (min-width: 1848px){
+    .superior__secao__container{
+        overflow: hidden;
+    }
+}

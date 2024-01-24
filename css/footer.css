@@ -1,0 +1,10 @@
+.rodape__container{
+    display: flex;
+    flex-flow: wrap column;
+}
+
+@media screen and (min-width: 832px){
+    .rodape__container{
+        justify-content: space-between;
+    }
+}
